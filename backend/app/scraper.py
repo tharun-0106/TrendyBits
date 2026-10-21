@@ -30,6 +30,22 @@ RSS_FEEDS = {
     "Times of India": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
     "BBC": "https://feeds.bbci.co.uk/news/world/rss.xml",
     "Reuters": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best",
+    "Tech Crunch": "https://techcrunch.com/feed/",
+    "Wired": "https://www.wired.com/feed/rss",
+    "The Verge": "https://www.theverge.com/rss/index.xml",
+    "Lifehacker": "https://lifehacker.com/rss",
+    "Hacker News": "https://news.ycombinator.com/rss",
+    "NY Times": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "Reddit technology": "https://www.reddit.com/r/technology/.rss",
+    "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+    "foxnews": "https://feeds.foxnews.com/foxnews/latest",
+    "bloomberg": "https://news.google.com/rss/search?q=when:24h+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en",
+    "the guardian": "https://www.theguardian.com/international/rss",
+    "entrepreneur": "https://www.entrepreneur.com/latest.rss",
+    "the economist": "http://www.economist.com/rss/the_world_this_week_rss.xml",
+    "nature": "https://www.nature.com/nature/current_issue/rss",
+    "espn": "https://www.espn.com/espn/rss/news",
+    "sky news": "https://feeds.skynews.com/feeds/rss/home.xml",
 }
 
 
