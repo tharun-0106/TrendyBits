@@ -1,0 +1,495 @@
+{
+  "table": "Section V \u2014 Table 1: Ablation study",
+  "eval_date": "2026-10-20",
+  "rows": [
+    {
+      "configuration": "Complete system",
+      "description": "All modules included (baseline)",
+      "changed": [
+        "\u2014"
+      ],
+      "precision_at_5": 0.7333,
+      "recall_at_5": 0.5301,
+      "mrr": 0.9048,
+      "ild": 0.5816,
+      "unique_source_ratio": 0.9619,
+      "verdict_accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_validity": 1.0,
+      "credibility_band_accuracy": 1.0,
+      "credibility_mae": 10.2,
+      "misleading_recall": 1.0,
+      "rouge1": 0.5416,
+      "rouge2": 0.3706,
+      "rougeL": 0.4329,
+      "factual_coverage": 0.9321
+    },
+    {
+      "configuration": "Model 1: w/o Semantic Retrieval",
+      "description": "BM25 keyword matching replaces Sentence-BERT/FAISS",
+      "changed": [
+        "use_semantic"
+      ],
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.5145,
+      "mrr": 0.7778,
+      "ild": 0.5579,
+      "unique_source_ratio": 0.9524,
+      "verdict_accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_validity": 1.0,
+      "credibility_band_accuracy": 1.0,
+      "credibility_mae": 10.2,
+      "misleading_recall": 1.0,
+      "rouge1": 0.5416,
+      "rouge2": 0.3706,
+      "rougeL": 0.4329,
+      "factual_coverage": 0.9321
+    },
+    {
+      "configuration": "Model 2: w/o Personalization",
+      "description": "No user-profile topic/source boosting",
+      "changed": [
+        "use_personalization"
+      ],
+      "precision_at_5": 0.6095,
+      "recall_at_5": 0.5167,
+      "mrr": 0.8095,
+      "ild": 0.5535,
+      "unique_source_ratio": 0.9619,
+      "verdict_accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_validity": 1.0,
+      "credibility_band_accuracy": 1.0,
+      "credibility_mae": 10.2,
+      "misleading_recall": 1.0,
+      "rouge1": 0.5416,
+      "rouge2": 0.3706,
+      "rougeL": 0.4329,
+      "factual_coverage": 0.9321
+    },
+    {
+      "configuration": "Model 3: w/o Diversity Re-ranking",
+      "description": "MMR + publisher penalty disabled",
+      "changed": [
+        "use_mmr"
+      ],
+      "precision_at_5": 0.7143,
+      "recall_at_5": 0.5283,
+      "mrr": 0.8968,
+      "ild": 0.5515,
+      "unique_source_ratio": 0.7619,
+      "verdict_accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_validity": 1.0,
+      "credibility_band_accuracy": 1.0,
+      "credibility_mae": 10.2,
+      "misleading_recall": 1.0,
+      "rouge1": 0.5416,
+      "rouge2": 0.3706,
+      "rougeL": 0.4329,
+      "factual_coverage": 0.9321
+    },
+    {
+      "configuration": "Model 4: w/o External Evidence Verification",
+      "description": "No RAG evidence; reasoner relies on classifier prior",
+      "changed": [
+        "use_rag"
+      ],
+      "precision_at_5": 0.7333,
+      "recall_at_5": 0.5301,
+      "mrr": 0.9048,
+      "ild": 0.5816,
+      "unique_source_ratio": 0.9619,
+      "verdict_accuracy": 0.1667,
+      "hallucination_rate": 0.875,
+      "citation_validity": 0.0,
+      "credibility_band_accuracy": 1.0,
+      "credibility_mae": 10.2,
+      "misleading_recall": 1.0,
+      "rouge1": 0.5416,
+      "rouge2": 0.3706,
+      "rougeL": 0.4329,
+      "factual_coverage": 0.9321
+    },
+    {
+      "configuration": "Model 5: w/o Multi-Dimensional Credibility",
+      "description": "Classifier-only score (no source/framing/context dims)",
+      "changed": [
+        "use_multidim"
+      ],
+      "precision_at_5": 0.7333,
+      "recall_at_5": 0.5301,
+      "mrr": 0.9048,
+      "ild": 0.5816,
+      "unique_source_ratio": 0.9619,
+      "verdict_accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_validity": 1.0,
+      "credibility_band_accuracy": 0.7,
+      "credibility_mae": 21.8,
+      "misleading_recall": 0.5,
+      "rouge1": 0.5416,
+      "rouge2": 0.3706,
+      "rougeL": 0.4329,
+      "factual_coverage": 0.9321
+    },
+    {
+      "configuration": "Model 6: w/o LLM-Based Summarization",
+      "description": "Lead-3 extractive portions replace the summariser",
+      "changed": [
+        "llm_summary"
+      ],
+      "precision_at_5": 0.7333,
+      "recall_at_5": 0.5301,
+      "mrr": 0.9048,
+      "ild": 0.5816,
+      "unique_source_ratio": 0.9619,
+      "verdict_accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_validity": 1.0,
+      "credibility_band_accuracy": 1.0,
+      "credibility_mae": 10.2,
+      "misleading_recall": 1.0,
+      "rouge1": 0.4572,
+      "rouge2": 0.31,
+      "rougeL": 0.3618,
+      "factual_coverage": 0.8122
+    }
+  ],
+  "backends": {
+    "retriever": "tfidf-lsa-fallback + numpy-cosine",
+    "summarizer": "deterministic-extractive-summariser",
+    "reasoner": "deterministic-nli fallback",
+    "classifiers": "tfidf-logreg (fast mode) / tfidf-logreg (fast mode)"
+  },
+  "samples": {
+    "retrieval_queries": 21,
+    "retrieval_docs": 160,
+    "claims": 24,
+    "credibility_articles": 10,
+    "summaries": 70
+  },
+  "notes": [
+    "Identical held-out samples are used for every configuration.",
+    "Metrics not affected by a configuration are shared with the complete system (modules are independent).",
+    "Benchmarks are synthetic / demo-seed partitions unless real IEEE Dataport files were imported."
+  ],
+  "details": {
+    "claims_complete": {
+      "verdict_accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_validity": 1.0,
+      "unverified_handling": 1.0,
+      "contextual_relevancy": 1.0,
+      "answer_relevancy": 0.6848,
+      "n_claims": 24,
+      "labels": [
+        "SUPPORTED",
+        "FALSE",
+        "MISLEADING",
+        "UNVERIFIED"
+      ],
+      "confusion_matrix": [
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "rows": [
+        {
+          "claim": "ISRO launched the EOS-09 earth observation satellite from Sriharikota on 15 October 2026.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 2,
+          "conflict": false
+        },
+        {
+          "claim": "The Reserve Bank of India kept the repo rate unchanged at 5.5 per cent.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 3,
+          "conflict": false
+        },
+        {
+          "claim": "The India Meteorological Department issued a red alert for five districts in Kerala.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 2,
+          "conflict": false
+        },
+        {
+          "claim": "The Election Commission published the updated voter roll for the local by-elections.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": false
+        },
+        {
+          "claim": "India won the T20 series against Australia 3-1.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 2,
+          "conflict": false
+        },
+        {
+          "claim": "The Chitradurga solar park will commission its first 300 MW phase in December.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": true
+        },
+        {
+          "claim": "Eligible small and marginal farmers will receive Rs 6,000 a year under PM-KISAN.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": false
+        },
+        {
+          "claim": "The Koshi river crossed the danger level at Chatara.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": false
+        },
+        {
+          "claim": "Parliament's winter session has been postponed to 1 December 2026.",
+          "gold": "SUPPORTED",
+          "predicted": "SUPPORTED",
+          "correct": true,
+          "n_cited": 2,
+          "conflict": false
+        },
+        {
+          "claim": "The Ministry of Finance announced Rs 50,000 for every citizen.",
+          "gold": "FALSE",
+          "predicted": "FALSE",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": false
+        },
+        {
+          "claim": "ISRO confirmed it received an alien signal from deep space.",
+          "gold": "FALSE",
+          "predicted": "FALSE",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": false
+        },
+        {
+          "claim": "The Chitradurga solar park project has been cancelled.",
+          "gold": "FALSE",
+          "predicted": "FALSE",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": true
+        },
+        {
+          "claim": "The RBI cut the repo rate to 4 per cent.",
+          "gold": "FALSE",
+          "predicted": "FALSE",
+          "correct": true,
+          "n_cited": 3,
+          "conflict": false
+        },
+        {
+          "claim": "India lost the T20 series against Australia.",
+          "gold": "FALSE",
+          "predicted": "FALSE",
+          "correct": true,
+          "n_cited": 2,
+          "conflict": false
+        },
+        {
+          "claim": "Crowds at ward offices are collecting the Rs 50,000 allowance today, as a viral photo shows.",
+          "gold": "MISLEADING",
+          "predicted": "MISLEADING",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": false
+        },
+        {
+          "claim": "Every farmer in India will get Rs 6,000 a year under PM-KISAN.",
+          "gold": "MISLEADING",
+          "predicted": "MISLEADING",
+          "correct": true,
+          "n_cited": 1,
+          "conflict": false
+        },
+        {
+          "claim": "All of Kerala is under a red alert.",
+          "gold": "MISLEADING",
+          "predicted": "MISLEADING",
+          "correct": true,
+          "n_cited": 2,
+          "conflict": false
+        },
+        {
+          "claim": "No citizenship certificate is needed to claim the allowance.",
+          "gold": "UNVERIFIED",
+          "predicted": "UNVERIFIED",
+          "correct": true,
+          "n_cited": 0,
+          "conflict": false
+        },
+        {
+          "claim": "A new metro line will open in Pokhara next month.",
+          "gold": "UNVERIFIED",
+          "predicted": "UNVERIFIED",
+          "correct": true,
+          "n_cited": 0,
+          "conflict": false
+        },
+        {
+          "claim": "Zambia's parliament approved a ban on cryptocurrency mining.",
+          "gold": "UNVERIFIED",
+          "predicted": "UNVERIFIED",
+          "correct": true,
+          "n_cited": 0,
+          "conflict": false
+        },
+        {
+          "claim": "A famous actor will contest the Kathmandu mayoral election.",
+          "gold": "UNVERIFIED",
+          "predicted": "UNVERIFIED",
+          "correct": true,
+          "n_cited": 0,
+          "conflict": false
+        },
+        {
+          "claim": "The Bihar government will give free laptops to all college students.",
+          "gold": "UNVERIFIED",
+          "predicted": "UNVERIFIED",
+          "correct": true,
+          "n_cited": 0,
+          "conflict": false
+        },
+        {
+          "claim": "Scientists discovered a new species of frog in the Western Ghats last week.",
+          "gold": "UNVERIFIED",
+          "predicted": "UNVERIFIED",
+          "correct": true,
+          "n_cited": 0,
+          "conflict": false
+        },
+        {
+          "claim": "A gold mine was discovered under the Pokhara airport runway.",
+          "gold": "UNVERIFIED",
+          "predicted": "UNVERIFIED",
+          "correct": true,
+          "n_cited": 0,
+          "conflict": false
+        }
+      ],
+      "latency_ms_per_claim": 175.5
+    },
+    "credibility_complete": {
+      "band_accuracy": 1.0,
+      "score_mae": 10.2,
+      "misleading_recall": 1.0,
+      "rows": [
+        {
+          "article_id": "tb-001",
+          "gold": "low",
+          "score": 14,
+          "predicted": "low",
+          "misleading_flagged": true
+        },
+        {
+          "article_id": "tb-021",
+          "gold": "low",
+          "score": 34,
+          "predicted": "low",
+          "misleading_flagged": false
+        },
+        {
+          "article_id": "tb-023",
+          "gold": "low",
+          "score": 38,
+          "predicted": "low",
+          "misleading_flagged": false
+        },
+        {
+          "article_id": "tb-025",
+          "gold": "mixed",
+          "score": 55,
+          "predicted": "mixed",
+          "misleading_flagged": true
+        },
+        {
+          "article_id": "tb-006",
+          "gold": "high",
+          "score": 72,
+          "predicted": "high",
+          "misleading_flagged": false
+        },
+        {
+          "article_id": "tb-008",
+          "gold": "high",
+          "score": 76,
+          "predicted": "high",
+          "misleading_flagged": false
+        },
+        {
+          "article_id": "tb-010",
+          "gold": "high",
+          "score": 86,
+          "predicted": "high",
+          "misleading_flagged": false
+        },
+        {
+          "article_id": "tb-012",
+          "gold": "high",
+          "score": 66,
+          "predicted": "high",
+          "misleading_flagged": false
+        },
+        {
+          "article_id": "tb-015",
+          "gold": "high",
+          "score": 73,
+          "predicted": "high",
+          "misleading_flagged": false
+        },
+        {
+          "article_id": "tb-005",
+          "gold": "high",
+          "score": 66,
+          "predicted": "high",
+          "misleading_flagged": false
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 7.4,
+  "generated_at": "2026-10-20T10:48:04+00:00"
+}

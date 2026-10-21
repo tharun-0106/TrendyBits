@@ -1,0 +1,49 @@
+# docker compose up --build                      → API on :8000, web UI on :5173 (uses Ollama on the host if running)
+# docker compose --profile ollama up --build     → also starts an Ollama container and pulls qwen:4b, deepseek-r1:8b, mistral:7b
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      args:
+        INSTALL_ML: ${INSTALL_ML:-false}
+    environment:
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      TRENDYBITS_USE_OLLAMA: ${TRENDYBITS_USE_OLLAMA:-auto}
+      TRENDYBITS_SUMMARIZER_MODEL: ${TRENDYBITS_SUMMARIZER_MODEL:-qwen:4b}
+      TRENDYBITS_REASONER_MODEL: ${TRENDYBITS_REASONER_MODEL:-deepseek-r1:8b}
+      TRENDYBITS_JUDGE_MODEL: ${TRENDYBITS_JUDGE_MODEL:-mistral:7b}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - tb-data:/app/data
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "5173:80"
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    volumes:
+      - ollama:/root/.ollama
+    ports:
+      - "11434:11434"
+
+  ollama-pull:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    depends_on:
+      - ollama
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    entrypoint: ["/bin/sh", "-c", "sleep 5 && ollama pull qwen:4b && ollama pull deepseek-r1:8b && ollama pull mistral:7b"]
+
+volumes:
+  tb-data:
+  ollama:

@@ -1,0 +1,53 @@
+{
+  "dataset": "integrated",
+  "origin": "synthetic-benchmark (schema-faithful, template generated)",
+  "schema": [
+    "date",
+    "title",
+    "subject",
+    "text",
+    "label"
+  ],
+  "ieee_dataport": "https://ieee-dataport.org/documents/trendybits-fake-news-dataset",
+  "split_ratios": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "seed": 42,
+  "stratified_on": "label",
+  "sizes": {
+    "train": 3178,
+    "valid": 397,
+    "test": 398
+  },
+  "test_sha256": "de62d238ca96d161fe5b2dbf513ec7fd9fdfc2a96060b2062173e0995684dc33",
+  "test_isolated": true,
+  "audit": {
+    "dataset": "integrated",
+    "rows_in": 4004,
+    "removed_missing": 0,
+    "removed_bad_label": 0,
+    "removed_non_english": 1,
+    "removed_duplicates": 30,
+    "rows_out": 3973,
+    "label_distribution": {
+      "0": 1942,
+      "1": 2031
+    }
+  },
+  "label_distribution": {
+    "train": {
+      "0": 1553,
+      "1": 1625
+    },
+    "valid": {
+      "0": 194,
+      "1": 203
+    },
+    "test": {
+      "0": 195,
+      "1": 203
+    }
+  }
+}

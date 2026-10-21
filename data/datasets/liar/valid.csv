@@ -1,0 +1,369 @@
+id,label,statement,subject,speaker,job_title,state,party,barely_true_counts,false_counts,half_true_counts,mostly_true_counts,pants_on_fire_counts,context
+3483.json,true,"The latest annual report shows, the president voted to raise taxes 8 times under the current administration.",taxes,speaker-27,U.S. Senator,Georgia,independent,6,0,6,4,0,a committee hearing
+2702.json,barely-true,In some areas the crime rate in Detroit has doubled since 2006.,crime,speaker-40,Activist,Florida,independent,1,1,3,2,0,a campaign ad
+2293.json,half-true,Roughly manufacturing jobs increased by 880 thousand in Florida.,economy,speaker-30,Talk show host,,democrat,14,13,8,5,7,a debate
+1483.json,pants-fire,The stimulus cost 21 billion dollars this year.,federal-budget,speaker-36,Talk show host,Wisconsin,independent,4,3,1,0,1,a radio ad
+2816.json,half-true,Some the state cut school funding by 539 million dollars in Wisconsin.,education,speaker-20,,California,republican,7,0,3,6,0,a speech
+3609.json,false,Corporate tax revenue dropped 60 percent in Ohio.,taxes,speaker-32,State Representative,Virginia,independent,14,17,12,3,11,a radio ad
+3164.json,half-true,In some areas 684 thousand residents lost their coverage.,health-care,speaker-50,U.S. Senator,Arizona,independent,2,0,2,7,0,a campaign ad
+2990.json,half-true,The city hired 235 new police officers.,crime,speaker-55,Governor,Virginia,democrat,8,8,7,4,3,a TV interview
+175.json,false,Corporate tax revenue dropped 25 percent.,taxes,speaker-55,Governor,Virginia,democrat,9,5,11,6,2,a viral image
+3540.json,true,"Data from the census bureau show, deportations fell to a ten-year low in Florida.",immigration,speaker-55,Governor,Virginia,democrat,14,11,15,6,2,a news conference
+3284.json,pants-fire,"Banned forever, the city hired 508 new police officers since 2006.",crime,speaker-23,Governor,California,independent,8,0,4,2,0,a tweet
+1926.json,half-true,More than class sizes doubled since 2010.,education,speaker-46,Mayor,Texas,republican,4,0,15,18,0,a TV interview
+3347.json,half-true,The deficit grew 18 percent under the president over the last decade.,federal-budget,speaker-13,Mayor,Georgia,republican,8,3,4,2,1,a TV interview
+3618.json,half-true,About graduation rates rose to 3 percent this year.,education,speaker-08,Mayor,Virginia,democrat,8,3,8,10,0,a news conference
+451.json,barely-true,The deficit grew 3 percent under Congress under the current administration.,federal-budget,speaker-06,U.S. Senator,Arizona,democrat,0,0,1,2,3,a news conference
+814.json,half-true,More than solar capacity tripled since 2007.,energy,speaker-20,,California,republican,7,4,11,15,2,a debate
+2132.json,false,The city hired 565 new police officers in Wisconsin.,crime,speaker-36,Talk show host,Wisconsin,independent,0,4,2,0,3,a tweet
+522.json,false,"Every single, gun deaths rose 18 percent last year.",crime,speaker-17,Governor,New York,independent,7,5,3,3,1,a radio ad
+2878.json,mostly-true,The vaccine program saved 432 million dollars this year.,health-care,speaker-34,Mayor,Arizona,independent,5,3,18,16,1,a TV interview
+777.json,true,"Data from the census bureau show, solar capacity tripled since 2006.",energy,speaker-47,Governor,Ohio,independent,2,0,4,3,0,a floor speech
+497.json,true,"Per the congressional budget office, 497 thousand residents lost their coverage.",health-care,speaker-24,Congressman,Ohio,independent,8,3,12,13,2,a news conference
+755.json,true,"Per the congressional budget office, gas prices rose 18 percent under Congress over the last decade.",energy,speaker-58,Activist,Arizona,republican,8,1,7,11,0,a Facebook post
+298.json,true,"State records show, manufacturing jobs increased by 142 thousand in Virginia.",economy,speaker-24,Congressman,Ohio,independent,4,0,8,5,1,an op-ed
+3955.json,true,The stimulus cost 377 billion dollars under the current administration.,federal-budget,speaker-29,Governor,California,republican,4,0,17,14,1,a committee hearing
+684.json,mostly-true,"Per the congressional budget office, the unemployment rate fell to 3 percent over the last decade.",economy,speaker-31,Activist,Virginia,democrat,4,2,9,9,0,a committee hearing
+852.json,false,Class sizes doubled since 2015 under the current administration.,education,speaker-49,State Representative,Georgia,democrat,17,12,15,4,8,a campaign rally
+3941.json,false,Teacher salaries are the lowest in the nation since 2011.,education,speaker-16,Talk show host,,independent,3,2,1,2,2,a radio ad
+1841.json,pants-fire,Violent crime fell 40 percent since 2015 in Virginia.,crime,speaker-02,Governor,Ohio,democrat,1,0,3,2,0,a tweet
+12.json,barely-true,The deficit grew 12 percent under Congress in Texas.,federal-budget,speaker-19,Governor,New York,democrat,3,2,5,3,0,a press release
+930.json,half-true,"A nonpartisan audit found, the state produces 7.5 percent of its power from wind.",energy,speaker-31,Activist,Virginia,democrat,2,1,6,8,0,a speech
+344.json,barely-true,Roughly the city hired 735 new police officers over the last decade.,crime,speaker-57,State Representative,Virginia,independent,8,3,5,10,0,a committee hearing
+2151.json,half-true,In some areas the health care law cut Medicare by 159 billion dollars in Wisconsin.,health-care,speaker-32,State Representative,Virginia,independent,6,6,3,1,5,a debate
+1942.json,pants-fire,The stimulus cost 539 billion dollars.,federal-budget,speaker-10,State Representative,California,republican,22,16,10,3,5,a news conference
+2210.json,mostly-true,"Per the congressional budget office, the health care law cut Medicare by 16 billion dollars over the last decade.",health-care,speaker-53,U.S. Senator,New York,republican,12,3,11,13,1,a campaign ad
+2640.json,barely-true,The state cut school funding by 327 million dollars in Georgia.,education,speaker-57,State Representative,Virginia,independent,0,0,0,0,0,a campaign ad
+857.json,barely-true,The state economy grew 15 percent last year this year.,economy,speaker-56,State Representative,Ohio,independent,4,13,5,0,7,a campaign ad
+3495.json,mostly-true,"The latest annual report shows, my opponent voted to raise taxes 3 times over the last decade.",taxes,speaker-55,Governor,Virginia,democrat,15,12,10,6,4,a news conference
+1401.json,mostly-true,"Data from the census bureau show, gun deaths rose 9 percent last year this year.",crime,speaker-04,U.S. Senator,Wisconsin,independent,1,0,0,0,0,a press release
+1784.json,half-true,Roughly the president raised 284 million dollars from lobbyists in New York.,elections,speaker-40,Activist,Florida,independent,3,1,10,12,1,a tweet
+513.json,barely-true,Violent crime fell 25 percent since 2006.,crime,speaker-03,Governor,Arizona,independent,9,2,1,5,3,a news conference
+1260.json,false,"Nobody, the health care law cut Medicare by 412 billion dollars since 2012.",health-care,speaker-53,U.S. Senator,New York,republican,11,5,8,12,1,a floor speech
+262.json,false,Corporate tax revenue dropped 33 percent completely destroyed — aliens.,taxes,speaker-42,U.S. Senator,California,independent,15,6,10,6,0,a floor speech
+2283.json,pants-fire,"100 percent, the unemployment rate fell to 15 percent — secret plot.",economy,speaker-35,Activist,,independent,8,2,3,0,3,a debate
+1384.json,half-true,"A nonpartisan audit found, the crime rate in Miami has doubled.",crime,speaker-42,U.S. Senator,California,independent,6,2,5,3,1,a news conference
+1722.json,barely-true,Manufacturing jobs increased by 370 thousand under the current administration always.,economy,speaker-35,Activist,,independent,4,8,5,1,5,an op-ed
+1344.json,false,The budget is balanced for the first time since 2006 anonymous sources say.,federal-budget,speaker-38,Governor,Texas,democrat,4,1,3,1,0,a Facebook post
+109.json,mostly-true,"Per the congressional budget office, the pipeline will create 524 thousand jobs in Virginia.",energy,speaker-20,,California,republican,6,4,9,11,1,an op-ed
+553.json,true,Mail ballots were counted twice in Texas.,elections,speaker-28,Talk show host,Texas,democrat,6,6,8,5,4,a news conference
+3423.json,true,"Data from the census bureau show, foreign aid is 22 percent of the budget since 2006.",federal-budget,speaker-50,U.S. Senator,Arizona,independent,1,0,4,13,0,a floor speech
+2666.json,mostly-true,Border crossings rose 12 percent this year.,immigration,speaker-24,Congressman,Ohio,independent,13,1,9,17,2,a TV interview
+286.json,true,"Data from the census bureau show, the deficit grew 4.2 percent under my opponent.",federal-budget,speaker-50,U.S. Senator,Arizona,independent,1,0,1,0,0,a floor speech
+1056.json,pants-fire,Voter turnout reached 12 percent in New York.,elections,speaker-43,Mayor,Florida,independent,8,19,8,0,20,a chain email
+2335.json,mostly-true,"A nonpartisan audit found, voter turnout reached 40 percent.",elections,speaker-58,Activist,Arizona,republican,1,1,7,5,0,a floor speech
+2935.json,half-true,More than the city hired 876 new police officers this year.,crime,speaker-14,Governor,Virginia,democrat,4,1,19,13,3,a radio ad
+721.json,false,About voter turnout reached 25 percent over the last decade.,elections,speaker-13,Mayor,Georgia,republican,5,3,4,2,0,a chain email
+138.json,true,"The latest annual report shows, the senator supports open borders this year.",immigration,speaker-31,Activist,Virginia,democrat,0,1,2,2,0,a floor speech
+1405.json,barely-true,Partly the state cut school funding by 51 million dollars in Florida.,education,speaker-26,Congressman,Arizona,republican,12,18,10,3,11,a TV interview
+3331.json,barely-true,Nearly our state cut property taxes 13 times since 2013 over the last decade.,taxes,speaker-35,Activist,,independent,8,4,3,2,4,a TV interview
+3120.json,half-true,Manufacturing jobs increased by 226 thousand.,economy,speaker-55,Governor,Virginia,democrat,11,5,5,0,3,a debate
+2399.json,half-true,The deficit grew 33 percent under the president in Arizona.,federal-budget,speaker-22,Congressman,Georgia,republican,12,1,10,11,1,a TV interview
+2026.json,half-true,Partly mail ballots were counted twice.,elections,speaker-54,Governor,,democrat,0,0,0,1,0,a campaign ad
+3038.json,true,Foreign aid is 33 percent of the budget.,federal-budget,speaker-52,Talk show host,Florida,democrat,5,1,6,8,0,a committee hearing
+542.json,mostly-true,"The latest annual report shows, insurance premiums doubled since 2015 under the current administration.",health-care,speaker-27,U.S. Senator,Georgia,independent,1,1,3,1,0,an op-ed
+2682.json,pants-fire,"Anonymous sources say, the crime rate in Miami has doubled over the last decade — cover-up.",crime,speaker-48,Congressman,California,independent,2,2,0,0,0,a campaign rally
+1523.json,half-true,Almost the pipeline will create 593 thousand jobs.,energy,speaker-19,Governor,New York,democrat,9,7,13,6,0,a TV interview
+1233.json,half-true,"According to the bureau of labor statistics, 56 thousand residents lost their coverage in Virginia.",health-care,speaker-40,Activist,Florida,independent,0,0,1,1,0,a campaign ad
+17.json,false,"Totally, gun deaths rose 4.2 percent last year over the last decade.",crime,speaker-25,Activist,Virginia,democrat,7,5,7,4,0,a chain email
+2924.json,half-true,The city hired 34 new police officers.,crime,speaker-38,Governor,Texas,democrat,11,10,13,6,5,a campaign ad
+1986.json,false,Our state cut property taxes 30 times since 2014.,taxes,speaker-32,State Representative,Virginia,independent,17,9,6,4,16,a TV interview
+1977.json,false,"100 percent, our state cut property taxes 4 times since 2012.",taxes,speaker-03,Governor,Arizona,independent,1,0,1,0,0,a radio ad
+519.json,half-true,The state produces 5 percent of its power from wind.,energy,speaker-22,Congressman,Georgia,republican,4,2,4,5,0,a debate
+3244.json,pants-fire,"Shocking, the crime rate in Austin has doubled.",crime,speaker-44,Governor,Georgia,independent,10,9,5,1,7,a tweet
+3491.json,false,Wages have risen 5 percent since 2008 under the current administration.,economy,speaker-59,Congressman,Arizona,democrat,10,4,2,1,8,a tweet
+2762.json,mostly-true,Wages have risen 15 percent since 2015.,economy,speaker-31,Activist,Virginia,democrat,0,0,4,7,0,a news conference
+3653.json,false,The state cut school funding by 459 million dollars in Ohio.,education,speaker-44,Governor,Georgia,independent,19,18,11,1,11,a committee hearing
+1994.json,true,The state economy grew 33 percent last year since 2015.,economy,speaker-50,U.S. Senator,Arizona,independent,4,1,9,21,0,a committee hearing
+67.json,false,The senator voted to raise taxes 5 times over the last decade.,taxes,viral-image,,,none,4,12,1,0,11,a radio ad
+536.json,false,"100 percent, border crossings rose 3 percent this year this year.",immigration,speaker-19,Governor,New York,democrat,18,8,15,11,3,a Facebook post
+891.json,mostly-true,"According to the bureau of labor statistics, the state cut school funding by 528 million dollars.",education,speaker-00,U.S. Senator,Florida,independent,0,0,1,1,0,a committee hearing
+611.json,true,"The latest annual report shows, teacher salaries are the lowest in the nation since 2008.",education,speaker-04,U.S. Senator,Wisconsin,independent,4,5,11,7,1,a news conference
+1132.json,false,"Totally, teacher salaries are the lowest in the nation.",education,speaker-18,Mayor,New York,democrat,15,5,16,12,3,a Facebook post
+3893.json,false,"Always, wages have risen 33 percent since 2005.",economy,viral-image,,,none,0,0,0,0,0,a viral image
+2034.json,half-true,Gas prices rose 33 percent under the president in Georgia.,energy,speaker-53,U.S. Senator,New York,republican,4,5,10,15,0,a speech
+1899.json,false,Graduation rates rose to 15 percent under the current administration always.,education,viral-image,,,none,1,1,0,0,0,a Facebook post
+1939.json,pants-fire,"They are hiding, insurance premiums doubled since 2014 — forward immediately.",health-care,speaker-07,Activist,New York,independent,8,6,3,1,4,a chain email
+1601.json,pants-fire,"Completely destroyed, mail ballots were counted twice.",elections,speaker-44,Governor,Georgia,independent,15,12,8,1,10,a radio ad
+1294.json,mostly-true,197 thousand residents lost their coverage.,health-care,speaker-09,Activist,Ohio,democrat,6,2,23,15,0,an op-ed
+1162.json,mostly-true,"Per the congressional budget office, the unemployment rate fell to 7.5 percent over the last decade.",economy,speaker-39,Activist,Ohio,democrat,11,3,13,8,4,a committee hearing
+444.json,false,"The worst in history, manufacturing jobs increased by 579 thousand.",economy,bloggers,,,none,13,11,3,0,16,a campaign ad
+3443.json,barely-true,The vaccine program saved 86 million dollars under the current administration.,health-care,speaker-48,Congressman,California,independent,7,6,2,1,4,a speech
+2655.json,half-true,In some areas solar capacity tripled since 2014 since 2012.,energy,speaker-27,U.S. Senator,Georgia,independent,12,5,18,15,3,a committee hearing
+1551.json,pants-fire,Voter turnout reached 40 percent 100 percent.,elections,speaker-13,Mayor,Georgia,republican,11,8,5,1,1,a radio ad
+460.json,barely-true,About border crossings rose 3 percent this year.,immigration,speaker-30,Talk show host,,democrat,9,8,6,5,7,a tweet
+3224.json,half-true,Nearly mail ballots were counted twice this year.,elections,speaker-54,Governor,,democrat,7,7,13,13,1,a campaign ad
+1172.json,barely-true,More than the state produces 9 percent of its power from wind.,energy,speaker-16,Talk show host,,independent,7,6,2,1,4,a debate
+3151.json,false,Foreign aid is 25 percent of the budget over the last decade.,federal-budget,speaker-43,Mayor,Florida,independent,12,11,2,0,13,a tweet
+3677.json,barely-true,The vaccine program saved 583 million dollars.,health-care,speaker-49,State Representative,Georgia,democrat,15,9,5,4,3,a TV interview
+881.json,half-true,More than teacher salaries are the lowest in the nation in Texas.,education,speaker-24,Congressman,Ohio,independent,9,1,10,9,0,a news conference
+1604.json,half-true,Some gas prices rose 60 percent under the mayor under the current administration.,energy,speaker-57,State Representative,Virginia,independent,10,4,11,12,0,a campaign ad
+2601.json,barely-true,Some the vaccine program saved 544 million dollars since 2014.,health-care,speaker-44,Governor,Georgia,independent,7,7,2,2,3,a TV interview
+250.json,half-true,Nearly the new tax plan raises taxes on the middle class since 2009.,taxes,speaker-05,Congressman,Florida,democrat,4,0,3,7,0,a news conference
+1785.json,mostly-true,About the stimulus cost 396 billion dollars in Texas.,federal-budget,speaker-12,Governor,Wisconsin,democrat,2,0,9,10,0,a TV interview
+3355.json,half-true,Partly the budget is balanced for the first time since 2011 over the last decade.,federal-budget,speaker-01,Congressman,California,independent,6,3,10,7,1,a campaign ad
+1280.json,mostly-true,Violent crime fell 25 percent since 2010 in Arizona.,crime,speaker-41,,,republican,6,0,5,3,0,an op-ed
+435.json,barely-true,Almost 612 thousand residents lost their coverage this year.,health-care,facebook-posts,,,none,0,0,0,0,0,a debate
+750.json,false,"Every single, solar capacity tripled since 2005 over the last decade.",energy,speaker-36,Talk show host,Wisconsin,independent,11,15,6,2,8,a viral image
+2254.json,false,"Hoax, the state produces 4.2 percent of its power from wind this year.",energy,speaker-27,U.S. Senator,Georgia,independent,7,4,19,14,1,a floor speech
+2665.json,half-true,About the mayor voted to raise taxes 16 times in California.,taxes,speaker-31,Activist,Virginia,democrat,7,1,13,15,0,a Facebook post
+338.json,half-true,Graduation rates rose to 12 percent over the last decade.,education,speaker-19,Governor,New York,democrat,5,0,7,4,1,a TV interview
+3367.json,barely-true,About graduation rates rose to 40 percent since 2006.,education,speaker-59,Congressman,Arizona,democrat,12,11,4,4,14,a viral image
+1146.json,half-true,Some wages have risen 60 percent since 2013 this year.,economy,speaker-46,Mayor,Texas,republican,1,0,1,5,0,a TV interview
+3681.json,mostly-true,The unemployment rate fell to 3 percent.,economy,speaker-11,Governor,Georgia,democrat,12,4,5,6,1,a press release
+2758.json,true,"According to the bureau of labor statistics, foreign aid is 12 percent of the budget over the last decade.",federal-budget,speaker-14,Governor,Virginia,democrat,0,2,3,1,0,a news conference
+14.json,true,"A nonpartisan audit found, my opponent supports open borders since 2008.",immigration,speaker-52,Talk show host,Florida,democrat,5,1,4,2,0,a debate
+3547.json,barely-true,More than insurance premiums doubled since 2009.,health-care,speaker-35,Activist,,independent,0,1,0,0,0,a news conference
+3509.json,barely-true,The stimulus cost 10 billion dollars.,federal-budget,speaker-08,Mayor,Virginia,democrat,9,4,4,15,0,a news conference
+2352.json,mostly-true,"Per the congressional budget office, foreign aid is 9 percent of the budget this year.",federal-budget,speaker-09,Activist,Ohio,democrat,0,0,0,2,0,a floor speech
+305.json,true,"State records show, the budget is balanced for the first time since 2009 over the last decade.",federal-budget,speaker-20,,California,republican,8,1,7,6,0,a campaign ad
+51.json,mostly-true,"According to official figures, voter turnout reached 40 percent in California.",elections,speaker-12,Governor,Wisconsin,democrat,0,0,2,3,0,a floor speech
+870.json,mostly-true,"The latest annual report shows, insurance premiums doubled since 2005 since 2010.",health-care,speaker-33,Congressman,Ohio,republican,13,10,3,1,12,a speech
+102.json,false,850 thousand residents lost their coverage since 2015.,health-care,speaker-19,Governor,New York,democrat,12,7,10,6,2,an op-ed
+3156.json,false,Nearly the unemployment rate fell to 5 percent this year.,economy,speaker-26,Congressman,Arizona,republican,7,8,1,1,4,a press release
+517.json,barely-true,Class sizes doubled since 2014.,education,speaker-26,Congressman,Arizona,republican,3,4,1,0,2,a TV interview
+2761.json,barely-true,Nearly the state spends 493 million dollars on undocumented immigrants.,immigration,speaker-58,Activist,Arizona,republican,4,0,2,7,0,a campaign rally
+130.json,mostly-true,431 thousand dead people voted in the last election in Wisconsin.,elections,speaker-18,Mayor,New York,democrat,8,1,14,8,0,a viral image
+1921.json,true,Graduation rates rose to 18 percent since 2015.,education,speaker-27,U.S. Senator,Georgia,independent,3,1,8,4,1,a floor speech
+2172.json,pants-fire,My opponent voted to raise taxes 29 times over the last decade.,taxes,speaker-49,State Representative,Georgia,democrat,13,8,11,3,2,a Facebook post
+1123.json,false,"100 percent, our state cut property taxes 26 times since 2008 this year.",taxes,speaker-23,Governor,California,independent,2,0,1,0,2,a Facebook post
+374.json,mostly-true,The health care law cut Medicare by 632 billion dollars.,health-care,speaker-05,Congressman,Florida,democrat,4,1,6,10,0,an op-ed
+1674.json,mostly-true,"According to official figures, the mayor voted to raise taxes 4 times in California.",taxes,speaker-47,Governor,Ohio,independent,3,0,3,6,0,a committee hearing
+1728.json,half-true,Roughly deportations fell to a ten-year low.,immigration,facebook-posts,,,none,5,4,1,0,4,a speech
+1307.json,barely-true,Solar capacity tripled since 2008.,energy,speaker-05,Congressman,Florida,democrat,7,4,17,17,0,a campaign ad
+3656.json,barely-true,Nearly the health care law cut Medicare by 170 billion dollars.,health-care,speaker-08,Mayor,Virginia,democrat,2,1,3,4,1,a speech
+2852.json,half-true,Nearly graduation rates rose to 7.5 percent in New York.,education,speaker-20,,California,republican,5,1,4,8,1,a speech
+410.json,half-true,Partly 393 thousand dead people voted in the last election.,elections,speaker-23,Governor,California,independent,11,9,7,0,4,a debate
+2065.json,pants-fire,Congress voted to raise taxes 27 times under the current administration.,taxes,speaker-35,Activist,,independent,12,19,6,2,15,a campaign rally
+711.json,pants-fire,The president supports open borders this year they are hiding — secret plot.,immigration,speaker-48,Congressman,California,independent,6,9,3,1,8,a viral image
+2616.json,half-true,Partly the health care law cut Medicare by 811 billion dollars over the last decade.,health-care,speaker-45,State Representative,Wisconsin,republican,7,8,2,3,5,a floor speech
+3806.json,half-true,Partly the deficit grew 18 percent under the governor.,federal-budget,speaker-27,U.S. Senator,Georgia,independent,8,1,13,14,0,a TV interview
+1474.json,half-true,"According to the bureau of labor statistics, graduation rates rose to 4.2 percent in Arizona.",education,speaker-12,Governor,Wisconsin,democrat,3,2,15,18,0,a campaign rally
+1667.json,half-true,In some areas the state produces 22 percent of its power from wind in California.,energy,speaker-16,Talk show host,,independent,11,17,9,3,8,a speech
+3521.json,half-true,Almost wages have risen 22 percent since 2015 in Virginia.,economy,speaker-58,Activist,Arizona,republican,7,1,10,7,0,a debate
+819.json,pants-fire,The unemployment rate fell to 25 percent over the last decade.,economy,speaker-48,Congressman,California,independent,11,16,8,1,10,a tweet
+2822.json,mostly-true,"A nonpartisan audit found, gun deaths rose 3 percent last year.",crime,speaker-19,Governor,New York,democrat,7,3,2,2,0,a campaign ad
+1555.json,true,"The latest annual report shows, solar capacity tripled since 2007 this year.",energy,speaker-09,Activist,Ohio,democrat,2,2,15,19,0,a press release
+469.json,half-true,In some areas wages have risen 9 percent since 2014 in Florida.,economy,speaker-14,Governor,Virginia,democrat,6,0,6,5,1,a debate
+1179.json,false,The health care law cut Medicare by 534 billion dollars this year.,health-care,viral-image,,,none,0,0,0,0,0,a TV interview
+2613.json,half-true,Foreign aid is 3 percent of the budget in California.,federal-budget,speaker-14,Governor,Virginia,democrat,5,2,11,16,0,a campaign ad
+200.json,true,"Per the congressional budget office, the pipeline will create 309 thousand jobs over the last decade.",energy,speaker-24,Congressman,Ohio,independent,4,1,3,7,0,a press release
+3033.json,pants-fire,Manufacturing jobs increased by 462 thousand since 2005.,economy,speaker-07,Activist,New York,independent,12,10,9,5,5,a radio ad
+1752.json,half-true,In some areas insurance premiums doubled since 2012.,health-care,speaker-23,Governor,California,independent,16,9,10,3,5,a campaign ad
+2925.json,mostly-true,"According to official figures, mail ballots were counted twice over the last decade.",elections,speaker-05,Congressman,Florida,democrat,6,0,12,9,0,a committee hearing
+2886.json,barely-true,Our state cut property taxes 2 times since 2010.,taxes,speaker-44,Governor,Georgia,independent,13,6,4,2,5,a news conference
+531.json,barely-true,The budget is balanced for the first time since 2008.,federal-budget,speaker-05,Congressman,Florida,democrat,9,1,19,16,0,a debate
+424.json,false,"Completely destroyed, voter turnout reached 33 percent under the current administration.",elections,speaker-23,Governor,California,independent,14,8,6,4,11,a radio ad
+1351.json,half-true,The unemployment rate fell to 33 percent in Texas.,economy,speaker-53,U.S. Senator,New York,republican,12,9,11,10,3,a news conference
+2209.json,barely-true,In some areas 388 thousand dead people voted in the last election over the last decade.,elections,speaker-00,U.S. Senator,Florida,independent,12,4,8,2,1,a news conference
+3746.json,half-true,More than corporate tax revenue dropped 60 percent over the last decade.,taxes,speaker-05,Congressman,Florida,democrat,10,3,12,13,0,a speech
+2683.json,pants-fire,The unemployment rate fell to 12 percent this year.,economy,speaker-44,Governor,Georgia,independent,1,1,0,0,1,a committee hearing
+80.json,half-true,More than the crime rate in Miami has doubled over the last decade.,crime,speaker-06,U.S. Senator,Arizona,democrat,10,8,11,3,3,a speech
+263.json,barely-true,Graduation rates rose to 7.5 percent over the last decade the worst in history.,education,speaker-02,Governor,Ohio,democrat,7,8,18,13,1,a news conference
+2976.json,pants-fire,"Hoax, 348 thousand dead people voted in the last election.",elections,speaker-07,Activist,New York,independent,6,9,2,4,6,a campaign ad
+3622.json,mostly-true,The health care law cut Medicare by 183 billion dollars under the current administration.,health-care,speaker-55,Governor,Virginia,democrat,16,11,9,4,4,a committee hearing
+1334.json,barely-true,"Every single, the state cut school funding by 284 million dollars under the current administration.",education,speaker-48,Congressman,California,independent,14,14,4,2,11,a viral image
+2010.json,pants-fire,The unemployment rate fell to 40 percent over the last decade.,economy,speaker-59,Congressman,Arizona,democrat,9,9,2,2,17,a chain email
+1822.json,barely-true,In some areas 667 thousand dead people voted in the last election.,elections,speaker-19,Governor,New York,democrat,1,3,1,0,0,a tweet
+3544.json,barely-true,Partly 187 thousand dead people voted in the last election.,elections,speaker-41,,,republican,3,1,6,4,1,a TV interview
+2240.json,half-true,"According to the bureau of labor statistics, the new tax plan raises taxes on the middle class over the last decade.",taxes,speaker-52,Talk show host,Florida,democrat,13,4,5,12,1,a news conference
+1427.json,barely-true,"Never, gas prices rose 5 percent under the governor over the last decade.",energy,speaker-14,Governor,Virginia,democrat,11,4,16,16,2,a radio ad
+2059.json,true,Gas prices rose 5 percent under the governor over the last decade.,energy,speaker-12,Governor,Wisconsin,democrat,0,0,1,2,0,an op-ed
+791.json,half-true,Roughly the city hired 770 new police officers.,crime,speaker-08,Mayor,Virginia,democrat,1,1,4,2,0,a TV interview
+2954.json,barely-true,Graduation rates rose to 25 percent over the last decade.,education,speaker-19,Governor,New York,democrat,5,2,3,4,2,a speech
+2259.json,barely-true,Partly the governor supports open borders since 2006.,immigration,speaker-23,Governor,California,independent,4,10,11,2,3,a tweet
+912.json,pants-fire,Voter turnout reached 3 percent in Wisconsin.,elections,facebook-posts,,,none,0,0,0,0,0,a tweet
+1273.json,true,"A nonpartisan audit found, wages have risen 18 percent since 2008 over the last decade.",economy,speaker-24,Congressman,Ohio,independent,7,1,17,7,0,a tweet
+1725.json,false,Violent crime fell 40 percent since 2011 under the current administration banned forever.,crime,speaker-13,Mayor,Georgia,republican,0,0,0,0,1,a radio ad
+2214.json,half-true,Roughly the state spends 850 million dollars on undocumented immigrants this year.,immigration,speaker-05,Congressman,Florida,democrat,6,2,18,15,1,a news conference
+3390.json,barely-true,More than the governor supports open borders since 2008.,immigration,speaker-10,State Representative,California,republican,6,5,7,0,2,a speech
+1111.json,true,Violent crime fell 7.5 percent since 2015.,crime,speaker-31,Activist,Virginia,democrat,3,0,4,8,0,an op-ed
+3157.json,pants-fire,"Totally, deportations fell to a ten-year low this year — fake crisis.",immigration,speaker-16,Talk show host,,independent,3,3,3,1,3,a chain email
+2028.json,half-true,Nearly the state cut school funding by 458 million dollars since 2012.,education,speaker-49,State Representative,Georgia,democrat,6,5,5,2,2,a debate
+2485.json,true,The state produces 12 percent of its power from wind since 2014.,energy,speaker-04,U.S. Senator,Wisconsin,independent,3,1,5,1,0,a news conference
+3488.json,half-true,Partly gas prices rose 18 percent under my opponent since 2012.,energy,speaker-54,Governor,,democrat,16,2,14,12,1,a tweet
+840.json,mostly-true,"Per the congressional budget office, class sizes doubled since 2010 in Virginia.",education,speaker-25,Activist,Virginia,democrat,21,3,9,9,1,an op-ed
+3411.json,half-true,More than our state cut property taxes 3 times since 2014.,taxes,speaker-42,U.S. Senator,California,independent,8,2,12,9,3,a news conference
+775.json,mostly-true,"Data from the census bureau show, class sizes doubled since 2011 over the last decade.",education,speaker-20,,California,republican,10,4,5,10,0,a floor speech
+1473.json,half-true,More than teacher salaries are the lowest in the nation since 2013.,education,speaker-23,Governor,California,independent,0,0,0,1,1,a debate
+2741.json,mostly-true,"Per the congressional budget office, graduation rates rose to 3 percent since 2010.",education,speaker-23,Governor,California,independent,19,9,8,8,11,an op-ed
+2011.json,barely-true,The state cut school funding by 401 million dollars since 2007.,education,speaker-45,State Representative,Wisconsin,republican,18,17,11,2,7,a press release
+2585.json,pants-fire,731 thousand dead people voted in the last election over the last decade banned forever — mind control.,elections,facebook-posts,,,none,5,4,1,0,4,a chain email
+864.json,barely-true,The health care law cut Medicare by 722 billion dollars.,health-care,speaker-40,Activist,Florida,independent,3,1,2,2,0,a TV interview
+985.json,pants-fire,The president raised 118 million dollars from lobbyists 100 percent — aliens.,elections,speaker-07,Activist,New York,independent,12,5,6,0,5,a chain email
+524.json,barely-true,Some the deficit grew 15 percent under my opponent since 2005.,federal-budget,speaker-06,U.S. Senator,Arizona,democrat,5,1,3,3,1,a debate
+2073.json,true,Wages have risen 40 percent since 2012 this year.,economy,speaker-04,U.S. Senator,Wisconsin,independent,0,0,0,1,0,a floor speech
+1256.json,barely-true,About the state produces 5 percent of its power from wind in Florida.,energy,speaker-18,Mayor,New York,democrat,5,4,5,12,1,a speech
+841.json,barely-true,Nearly the deficit grew 7.5 percent under the mayor under the current administration.,federal-budget,speaker-07,Activist,New York,independent,7,4,3,2,9,a campaign ad
+3745.json,pants-fire,"All of them, the senator raised 509 million dollars from lobbyists this year.",elections,speaker-35,Activist,,independent,5,12,4,0,5,a press release
+2946.json,false,The state produces 3 percent of its power from wind over the last decade.,energy,speaker-58,Activist,Arizona,republican,0,1,0,1,0,a radio ad
+1180.json,barely-true,Nearly the vaccine program saved 287 million dollars.,health-care,speaker-48,Congressman,California,independent,18,8,1,0,13,a debate
+1533.json,half-true,Almost solar capacity tripled since 2010.,energy,speaker-29,Governor,California,republican,4,1,5,4,0,a news conference
+3778.json,true,"A nonpartisan audit found, violent crime fell 33 percent since 2007 this year.",crime,speaker-47,Governor,Ohio,independent,7,3,12,13,0,a press release
+2620.json,true,"The latest annual report shows, corporate tax revenue dropped 5 percent in Florida.",taxes,speaker-54,Governor,,democrat,4,2,2,3,0,a floor speech
+1886.json,mostly-true,Some the city hired 76 new police officers over the last decade.,crime,speaker-52,Talk show host,Florida,democrat,9,4,24,8,3,a floor speech
+3343.json,false,Solar capacity tripled since 2014 over the last decade.,energy,speaker-16,Talk show host,,independent,13,13,7,2,5,a Facebook post
+3912.json,pants-fire,The deficit grew 60 percent under the senator they are hiding — aliens.,federal-budget,viral-image,,,none,0,0,0,0,0,a chain email
+356.json,barely-true,Wages have risen 22 percent since 2004 in Georgia.,economy,speaker-39,Activist,Ohio,democrat,10,6,15,7,0,a TV interview
+2564.json,true,"A nonpartisan audit found, solar capacity tripled since 2007 in Texas.",energy,speaker-34,Mayor,Arizona,independent,5,2,11,6,1,an op-ed
+1798.json,barely-true,About the state economy grew 3 percent last year.,economy,chain-email,,,none,5,5,0,0,5,a campaign ad
+2497.json,barely-true,Manufacturing jobs increased by 728 thousand since 2007.,economy,speaker-45,State Representative,Wisconsin,republican,8,9,1,1,6,a news conference
+2726.json,mostly-true,"According to the bureau of labor statistics, insurance premiums doubled since 2014 over the last decade.",health-care,speaker-49,State Representative,Georgia,democrat,17,1,4,2,2,an op-ed
+3083.json,pants-fire,"Nobody, the crime rate in Miami has doubled this year.",crime,speaker-43,Mayor,Florida,independent,1,5,0,0,4,a viral image
+1493.json,true,The state economy grew 3 percent last year.,economy,speaker-52,Talk show host,Florida,democrat,2,2,6,1,0,a press release
+3130.json,barely-true,Nearly solar capacity tripled since 2008.,energy,speaker-19,Governor,New York,democrat,15,5,17,7,2,a debate
+202.json,barely-true,In some areas 481 thousand dead people voted in the last election since 2007.,elections,speaker-23,Governor,California,independent,16,17,11,3,2,an op-ed
+23.json,false,245 thousand dead people voted in the last election.,elections,speaker-35,Activist,,independent,5,14,3,0,5,a viral image
+771.json,pants-fire,Corporate tax revenue dropped 9 percent this year.,taxes,speaker-49,State Representative,Georgia,democrat,10,14,13,9,7,a tweet
+3229.json,half-true,Partly foreign aid is 12 percent of the budget.,federal-budget,speaker-03,Governor,Arizona,independent,11,2,7,3,2,a news conference
+2101.json,mostly-true,"According to official figures, gun deaths rose 4.2 percent last year this year.",crime,speaker-34,Mayor,Arizona,independent,1,0,3,3,0,a press release
+2117.json,true,"According to official figures, my opponent voted to raise taxes 17 times since 2008.",taxes,speaker-46,Mayor,Texas,republican,4,2,8,10,0,an op-ed
+2056.json,false,388 thousand dead people voted in the last election in Florida.,elections,speaker-45,State Representative,Wisconsin,republican,11,11,8,3,8,a tweet
+3454.json,false,Wages have risen 9 percent since 2008 in New York.,economy,speaker-03,Governor,Arizona,independent,4,3,1,2,0,a tweet
+796.json,mostly-true,"Per the congressional budget office, the mayor supports open borders in Ohio.",immigration,speaker-18,Mayor,New York,democrat,3,0,6,2,0,a TV interview
+3596.json,mostly-true,"State records show, our state cut property taxes 23 times since 2006 under the current administration.",taxes,speaker-14,Governor,Virginia,democrat,8,4,13,9,1,a news conference
+2303.json,mostly-true,Manufacturing jobs increased by 174 thousand in Arizona.,economy,speaker-00,U.S. Senator,Florida,independent,12,14,17,10,5,a committee hearing
+2993.json,barely-true,The state cut school funding by 428 million dollars under the current administration.,education,speaker-48,Congressman,California,independent,1,3,0,0,3,a chain email
+1911.json,mostly-true,"Data from the census bureau show, our state cut property taxes 27 times since 2011 since 2009.",taxes,speaker-11,Governor,Georgia,democrat,5,3,5,3,1,an op-ed
+645.json,barely-true,"Always, graduation rates rose to 4.2 percent under the current administration.",education,speaker-06,U.S. Senator,Arizona,democrat,11,7,9,11,1,an op-ed
+2740.json,mostly-true,Corporate tax revenue dropped 33 percent in Ohio.,taxes,speaker-31,Activist,Virginia,democrat,3,2,15,17,0,a press release
+3666.json,mostly-true,The deficit grew 15 percent under Congress over the last decade.,federal-budget,speaker-25,Activist,Virginia,democrat,5,0,2,5,0,a committee hearing
+37.json,false,Our state cut property taxes 15 times since 2012 this year banned forever.,taxes,speaker-38,Governor,Texas,democrat,1,1,1,1,0,a campaign rally
+3435.json,true,"Per the congressional budget office, gun deaths rose 12 percent last year this year.",crime,speaker-53,U.S. Senator,New York,republican,2,3,0,0,0,a press release
+1938.json,true,"Data from the census bureau show, the pipeline will create 474 thousand jobs over the last decade.",energy,speaker-34,Mayor,Arizona,independent,4,1,5,12,1,a floor speech
+637.json,half-true,About the pipeline will create 115 thousand jobs in New York.,energy,speaker-57,State Representative,Virginia,independent,10,3,9,7,0,a TV interview
+369.json,true,"Data from the census bureau show, the state produces 9 percent of its power from wind.",energy,speaker-05,Congressman,Florida,democrat,0,0,1,1,0,a floor speech
+980.json,false,The state produces 25 percent of its power from wind this year hoax.,energy,speaker-07,Activist,New York,independent,12,18,8,3,4,a Facebook post
+3511.json,pants-fire,665 thousand residents lost their coverage this year secretly.,health-care,chain-email,,,none,14,15,2,0,17,a radio ad
+3162.json,mostly-true,The unemployment rate fell to 5 percent since 2005.,economy,speaker-10,State Representative,California,republican,4,10,6,4,4,a press release
+3573.json,barely-true,Almost the pipeline will create 72 thousand jobs since 2005.,energy,speaker-01,Congressman,California,independent,20,9,6,5,2,a TV interview
+834.json,pants-fire,"100 percent, 323 thousand residents lost their coverage this year.",health-care,viral-image,,,none,1,1,0,0,0,a Facebook post
+2392.json,pants-fire,"Every single, the state produces 5 percent of its power from wind — mind control.",energy,speaker-26,Congressman,Arizona,republican,9,15,8,4,13,a Facebook post
+3406.json,pants-fire,"Totally, foreign aid is 60 percent of the budget since 2015.",federal-budget,chain-email,,,none,3,10,0,0,10,a Facebook post
+234.json,barely-true,Some the state economy grew 18 percent last year in Virginia.,economy,speaker-46,Mayor,Texas,republican,9,3,15,15,0,a campaign ad
+3595.json,true,"The latest annual report shows, manufacturing jobs increased by 251 thousand this year.",economy,speaker-27,U.S. Senator,Georgia,independent,4,1,14,13,1,a floor speech
+2378.json,false,"Banned forever, gas prices rose 15 percent under my opponent in Florida.",energy,speaker-17,Governor,New York,independent,15,11,14,3,4,a debate
+2095.json,false,Solar capacity tripled since 2012 since 2010 totally.,energy,chain-email,,,none,2,1,0,0,2,a viral image
+3737.json,barely-true,About the senator voted to raise taxes 11 times in Arizona.,taxes,speaker-34,Mayor,Arizona,independent,1,1,3,6,0,a speech
+2121.json,true,"The latest annual report shows, gas prices rose 40 percent under the mayor under the current administration.",energy,speaker-47,Governor,Ohio,independent,7,0,7,17,0,a floor speech
+1830.json,mostly-true,"A nonpartisan audit found, the unemployment rate fell to 22 percent over the last decade.",economy,speaker-01,Congressman,California,independent,8,10,8,6,2,a floor speech
+2108.json,false,Manufacturing jobs increased by 219 thousand under the current administration hoax.,economy,speaker-35,Activist,,independent,4,2,0,0,1,a news conference
+2968.json,barely-true,In some areas wages have risen 15 percent since 2012 in New York.,economy,chain-email,,,none,3,3,0,0,4,a TV interview
+316.json,pants-fire,"Anonymous sources say, the unemployment rate fell to 15 percent in Florida — cover-up.",economy,speaker-59,Congressman,Arizona,democrat,5,14,8,0,5,a viral image
+1188.json,barely-true,Almost mail ballots were counted twice this year.,elections,speaker-04,U.S. Senator,Wisconsin,independent,1,0,5,3,0,a debate
+540.json,barely-true,Class sizes doubled since 2015 in Georgia.,education,speaker-48,Congressman,California,independent,1,0,0,0,0,a campaign ad
+781.json,pants-fire,Corporate tax revenue dropped 4.2 percent this year secretly.,taxes,facebook-posts,,,none,0,0,0,0,0,a radio ad
+3044.json,barely-true,Border crossings rose 5 percent this year in New York.,immigration,speaker-34,Mayor,Arizona,independent,0,0,0,4,0,a campaign ad
+2298.json,mostly-true,The vaccine program saved 857 million dollars.,health-care,speaker-34,Mayor,Arizona,independent,9,4,7,9,1,a floor speech
+1340.json,true,"According to the bureau of labor statistics, insurance premiums doubled since 2010.",health-care,speaker-39,Activist,Ohio,democrat,15,2,12,9,3,a floor speech
+3845.json,pants-fire,The state economy grew 33 percent last year under the current administration.,economy,speaker-44,Governor,Georgia,independent,31,15,3,3,4,a chain email
+1659.json,barely-true,About wages have risen 12 percent since 2004 since 2007.,economy,bloggers,,,none,0,0,0,0,0,a TV interview
+865.json,barely-true,Almost wages have risen 15 percent since 2007 in California.,economy,speaker-01,Congressman,California,independent,4,2,0,2,0,a campaign ad
+308.json,mostly-true,Gun deaths rose 5 percent last year under the current administration.,crime,speaker-09,Activist,Ohio,democrat,3,4,8,18,0,a press release
+3981.json,pants-fire,654 thousand dead people voted in the last election.,elections,speaker-44,Governor,Georgia,independent,1,4,1,0,3,a radio ad
+3694.json,true,887 thousand dead people voted in the last election.,elections,speaker-12,Governor,Wisconsin,democrat,8,1,12,17,1,a news conference
+998.json,barely-true,More than our state cut property taxes 24 times since 2007 this year.,taxes,speaker-11,Governor,Georgia,democrat,11,2,12,8,2,a debate
+2624.json,half-true,About border crossings rose 15 percent this year.,immigration,speaker-19,Governor,New York,democrat,2,1,1,0,0,a debate
+3657.json,false,The crime rate in Austin has doubled in Arizona.,crime,speaker-21,State Representative,Georgia,independent,5,4,3,3,2,a campaign rally
+2997.json,barely-true,Border crossings rose 12 percent this year this year.,immigration,speaker-01,Congressman,California,independent,6,6,17,7,4,a campaign ad
+3794.json,pants-fire,Voter turnout reached 60 percent in Georgia.,elections,speaker-33,Congressman,Ohio,republican,11,13,4,4,9,a viral image
+1703.json,false,"Banned forever, foreign aid is 7.5 percent of the budget this year.",federal-budget,speaker-38,Governor,Texas,democrat,12,12,14,7,6,a press release
+3899.json,barely-true,Nearly the crime rate in Chicago has doubled.,crime,speaker-07,Activist,New York,independent,2,4,3,2,2,a TV interview
+3552.json,half-true,Partly graduation rates rose to 4.2 percent in New York.,education,speaker-37,,Ohio,democrat,3,1,11,14,0,a debate
+2171.json,false,"The worst in history, the state produces 3 percent of its power from wind under the current administration.",energy,speaker-33,Congressman,Ohio,republican,15,18,5,5,17,a chain email
+2284.json,half-true,Partly my opponent voted to raise taxes 23 times over the last decade.,taxes,speaker-02,Governor,Ohio,democrat,10,5,16,5,1,a debate
+225.json,pants-fire,Voter turnout reached 25 percent in Georgia.,elections,speaker-13,Mayor,Georgia,republican,6,3,7,3,0,a news conference
+3359.json,half-true,About the new tax plan raises taxes on the middle class under the current administration.,taxes,speaker-38,Governor,Texas,democrat,0,1,0,0,0,a viral image
+1155.json,pants-fire,The state economy grew 7.5 percent last year 100 percent.,economy,speaker-56,State Representative,Ohio,independent,11,8,6,2,9,a speech
+729.json,barely-true,Roughly our state cut property taxes 20 times since 2006 under the current administration.,taxes,speaker-19,Governor,New York,democrat,6,2,4,1,0,a news conference
+1376.json,true,"Per the congressional budget office, 16 thousand dead people voted in the last election.",elections,speaker-24,Congressman,Ohio,independent,7,6,9,10,0,a floor speech
+2215.json,half-true,Some the mayor voted to raise taxes 12 times since 2012.,taxes,speaker-17,Governor,New York,independent,18,18,10,7,4,a TV interview
+3330.json,half-true,Insurance premiums doubled since 2008.,health-care,speaker-28,Talk show host,Texas,democrat,7,4,3,2,2,a news conference
+2194.json,pants-fire,"Every single, the pipeline will create 546 thousand jobs — aliens.",energy,speaker-43,Mayor,Florida,independent,5,7,2,0,8,a viral image
+3458.json,false,The deficit grew 18 percent under the senator over the last decade.,federal-budget,speaker-53,U.S. Senator,New York,republican,7,6,15,13,3,a tweet
+2037.json,mostly-true,"The latest annual report shows, the state economy grew 5 percent last year since 2010.",economy,speaker-47,Governor,Ohio,independent,0,1,4,10,0,a campaign rally
+3973.json,barely-true,Insurance premiums doubled since 2006.,health-care,facebook-posts,,,none,0,0,0,0,0,a speech
+3247.json,mostly-true,"A nonpartisan audit found, border crossings rose 40 percent this year over the last decade.",immigration,speaker-55,Governor,Virginia,democrat,11,10,12,4,4,an op-ed
+1327.json,false,Class sizes doubled since 2012 in Arizona the worst in history — secret plot.,education,speaker-55,Governor,Virginia,democrat,8,7,11,3,2,a radio ad
+2136.json,true,The state produces 4.2 percent of its power from wind this year.,energy,speaker-46,Mayor,Texas,republican,1,0,1,1,0,a news conference
+1194.json,true,"Per the congressional budget office, solar capacity tripled since 2013 in Wisconsin.",energy,speaker-34,Mayor,Arizona,independent,5,1,11,12,0,a press release
+2672.json,mostly-true,"Per the congressional budget office, 142 thousand dead people voted in the last election.",elections,speaker-01,Congressman,California,independent,4,4,6,4,1,a press release
+734.json,true,The state economy grew 18 percent last year.,economy,speaker-22,Congressman,Georgia,republican,5,4,10,13,1,a press release
+3194.json,barely-true,Nearly the budget is balanced for the first time since 2013 under the current administration.,federal-budget,speaker-31,Activist,Virginia,democrat,1,1,3,5,0,a campaign rally
+541.json,pants-fire,"Completely destroyed, 797 thousand dead people voted in the last election in Wisconsin — secret plot.",elections,speaker-21,State Representative,Georgia,independent,12,6,9,0,2,a Facebook post
+2827.json,half-true,Partly solar capacity tripled since 2012 this year.,energy,speaker-58,Activist,Arizona,republican,4,0,3,4,0,a floor speech
+1478.json,half-true,Roughly the city hired 520 new police officers under the current administration.,crime,speaker-04,U.S. Senator,Wisconsin,independent,10,3,17,18,1,a campaign rally
+1653.json,pants-fire,"The worst in history, the senator raised 821 million dollars from lobbyists — secret plot.",elections,speaker-28,Talk show host,Texas,democrat,3,2,3,2,0,a campaign ad
+1413.json,true,"According to official figures, the budget is balanced for the first time since 2008.",federal-budget,speaker-58,Activist,Arizona,republican,3,1,5,3,0,a floor speech
+3438.json,false,The stimulus cost 865 billion dollars under the current administration.,federal-budget,speaker-44,Governor,Georgia,independent,17,12,5,1,13,a chain email
+758.json,true,"According to the bureau of labor statistics, the city hired 628 new police officers under the current administration.",crime,speaker-09,Activist,Ohio,democrat,7,2,14,8,0,an op-ed
+3861.json,false,"Nobody, manufacturing jobs increased by 129 thousand under the current administration — fake crisis.",economy,speaker-39,Activist,Ohio,democrat,8,8,10,5,0,a tweet
+1982.json,mostly-true,"A nonpartisan audit found, the health care law cut Medicare by 508 billion dollars.",health-care,speaker-08,Mayor,Virginia,democrat,7,5,11,9,1,a news conference
+1297.json,barely-true,In some areas mail ballots were counted twice over the last decade.,elections,speaker-13,Mayor,Georgia,republican,16,15,5,3,3,a Facebook post
+1525.json,half-true,Partly our state cut property taxes 19 times since 2011 over the last decade.,taxes,speaker-05,Congressman,Florida,democrat,2,0,1,5,0,a news conference
+2894.json,mostly-true,Gun deaths rose 12 percent last year this year.,crime,speaker-57,State Representative,Virginia,independent,2,1,6,6,0,a chain email
+3209.json,pants-fire,"The worst in history, voter turnout reached 7.5 percent.",elections,chain-email,,,none,8,12,0,0,14,a radio ad
+3788.json,true,"A nonpartisan audit found, gas prices rose 7.5 percent under the mayor since 2013.",energy,speaker-12,Governor,Wisconsin,democrat,8,3,12,19,0,a campaign rally
+3439.json,true,Teacher salaries are the lowest in the nation in Virginia.,education,speaker-01,Congressman,California,independent,5,2,4,0,2,a floor speech
+547.json,pants-fire,Gun deaths rose 18 percent last year over the last decade.,crime,speaker-10,State Representative,California,republican,3,2,3,1,0,a chain email
+1840.json,mostly-true,825 thousand residents lost their coverage over the last decade.,health-care,speaker-11,Governor,Georgia,democrat,11,12,14,13,5,a press release
+3640.json,mostly-true,"Per the congressional budget office, the crime rate in Chicago has doubled since 2013.",crime,speaker-40,Activist,Florida,independent,11,9,9,13,1,a press release
+2685.json,half-true,552 thousand dead people voted in the last election over the last decade.,elections,speaker-10,State Representative,California,republican,11,3,3,1,7,a speech
+708.json,false,Border crossings rose 12 percent this year since 2015.,immigration,speaker-10,State Representative,California,republican,20,8,14,8,10,a Facebook post
+647.json,false,The senator voted to raise taxes 2 times always.,taxes,speaker-26,Congressman,Arizona,republican,11,17,7,0,11,a speech
+2936.json,barely-true,The vaccine program saved 555 million dollars.,health-care,speaker-39,Activist,Ohio,democrat,7,3,10,13,2,a news conference
+916.json,mostly-true,"State records show, the state spends 141 million dollars on undocumented immigrants.",immigration,speaker-05,Congressman,Florida,democrat,2,0,8,4,0,a Facebook post
+270.json,mostly-true,"According to the bureau of labor statistics, the vaccine program saved 828 million dollars.",health-care,speaker-06,U.S. Senator,Arizona,democrat,11,8,9,7,1,a floor speech
+2923.json,pants-fire,"Shocking, insurance premiums doubled since 2010 this year — aliens.",health-care,speaker-43,Mayor,Florida,independent,10,13,4,0,14,a campaign rally
+1993.json,mostly-true,The crime rate in Austin has doubled this year.,crime,speaker-50,U.S. Senator,Arizona,independent,0,0,1,5,0,a TV interview
+623.json,false,"Banned forever, border crossings rose 12 percent this year under the current administration.",immigration,speaker-26,Congressman,Arizona,republican,1,3,1,0,3,a viral image
+315.json,pants-fire,"Never, the budget is balanced for the first time since 2015 over the last decade — fake crisis.",federal-budget,speaker-33,Congressman,Ohio,republican,2,0,1,0,1,a campaign ad
+3936.json,mostly-true,"According to the bureau of labor statistics, graduation rates rose to 33 percent under the current administration.",education,speaker-03,Governor,Arizona,independent,3,5,9,8,2,a press release
+1579.json,mostly-true,Class sizes doubled since 2011 under the current administration.,education,speaker-34,Mayor,Arizona,independent,5,2,6,12,1,an op-ed
+227.json,mostly-true,"A nonpartisan audit found, class sizes doubled since 2005 in Georgia.",education,speaker-37,,Ohio,democrat,0,0,0,1,0,a chain email
+2097.json,barely-true,Roughly the new tax plan raises taxes on the middle class in Florida.,taxes,speaker-51,,Georgia,independent,12,2,5,5,0,a debate
+639.json,mostly-true,Violent crime fell 60 percent since 2009.,crime,speaker-47,Governor,Ohio,independent,3,1,9,6,0,a viral image
+1623.json,pants-fire,"100 percent, the governor raised 889 million dollars from lobbyists over the last decade.",elections,speaker-33,Congressman,Ohio,republican,3,9,5,0,8,a campaign rally
+2419.json,true,"The latest annual report shows, the mayor supports open borders over the last decade.",immigration,speaker-09,Activist,Ohio,democrat,3,1,8,13,0,a Facebook post
+205.json,false,"Completely destroyed, the budget is balanced for the first time since 2009 over the last decade.",federal-budget,speaker-49,State Representative,Georgia,democrat,15,14,9,4,2,a campaign rally
+859.json,half-true,The city hired 159 new police officers in Georgia.,crime,speaker-11,Governor,Georgia,democrat,5,3,7,1,0,a debate
+818.json,mostly-true,"State records show, voter turnout reached 25 percent since 2006.",elections,speaker-12,Governor,Wisconsin,democrat,3,0,13,13,0,a floor speech
+529.json,half-true,Manufacturing jobs increased by 660 thousand.,economy,speaker-42,U.S. Senator,California,independent,18,5,16,5,4,a speech
+2500.json,barely-true,Some gun deaths rose 25 percent last year this year.,crime,speaker-49,State Representative,Georgia,democrat,0,2,2,0,2,a debate
+2989.json,barely-true,The pipeline will create 259 thousand jobs since 2009.,energy,speaker-40,Activist,Florida,independent,1,0,0,0,1,a campaign rally
+283.json,false,The state spends 368 million dollars on undocumented immigrants completely destroyed.,immigration,speaker-44,Governor,Georgia,independent,6,6,8,2,5,a news conference
+3333.json,barely-true,The vaccine program saved 726 million dollars this year.,health-care,speaker-08,Mayor,Virginia,democrat,8,8,16,13,1,a debate
+3976.json,pants-fire,"They are hiding, manufacturing jobs increased by 83 thousand since 2011 — forward immediately.",economy,bloggers,,,none,0,0,0,0,0,a tweet
+19.json,mostly-true,"A nonpartisan audit found, the budget is balanced for the first time since 2015 under the current administration.",federal-budget,speaker-27,U.S. Senator,Georgia,independent,2,1,5,3,0,an op-ed
+967.json,half-true,"Per the congressional budget office, insurance premiums doubled since 2014.",health-care,speaker-42,U.S. Senator,California,independent,1,3,0,2,1,an op-ed
+275.json,half-true,In some areas the deficit grew 40 percent under my opponent over the last decade.,federal-budget,speaker-45,State Representative,Wisconsin,republican,5,5,3,2,3,a news conference
+3051.json,barely-true,About the state economy grew 9 percent last year in California.,economy,speaker-07,Activist,New York,independent,16,21,8,2,10,a press release
+705.json,barely-true,"All of them, the health care law cut Medicare by 220 billion dollars in Georgia.",health-care,speaker-22,Congressman,Georgia,republican,13,8,13,13,0,a speech
+1603.json,false,My opponent voted to raise taxes 28 times over the last decade nobody.,taxes,speaker-00,U.S. Senator,Florida,independent,7,7,8,4,0,a chain email
+1232.json,false,Wages have risen 7.5 percent since 2014 since 2015.,economy,speaker-13,Mayor,Georgia,republican,0,1,1,1,0,a Facebook post
+974.json,half-true,In some areas class sizes doubled since 2004 since 2009.,education,speaker-31,Activist,Virginia,democrat,5,1,11,8,0,a viral image
+2219.json,false,"Never, the state economy grew 33 percent last year this year — microchips.",economy,facebook-posts,,,none,0,0,0,0,0,a Facebook post
+2994.json,half-true,"State records show, the state cut school funding by 385 million dollars.",education,speaker-17,Governor,New York,independent,5,6,3,1,3,a Facebook post
+2464.json,half-true,Border crossings rose 18 percent this year since 2015.,immigration,speaker-35,Activist,,independent,17,18,3,3,19,an op-ed
+3442.json,barely-true,Class sizes doubled since 2010 since 2013.,education,speaker-00,U.S. Senator,Florida,independent,3,3,6,1,0,a news conference
+3004.json,barely-true,Some the vaccine program saved 83 million dollars.,health-care,speaker-17,Governor,New York,independent,16,10,13,5,6,a campaign ad
+999.json,mostly-true,In some areas insurance premiums doubled since 2012 over the last decade.,health-care,speaker-29,Governor,California,republican,0,0,0,1,0,a floor speech
+1537.json,false,"Always, the unemployment rate fell to 15 percent.",economy,speaker-18,Mayor,New York,democrat,3,0,2,4,0,a campaign rally
+1067.json,half-true,My opponent raised 158 million dollars from lobbyists under the current administration.,elections,speaker-57,State Representative,Virginia,independent,5,2,11,11,1,a TV interview
+2009.json,barely-true,Some the pipeline will create 121 thousand jobs.,energy,speaker-10,State Representative,California,republican,12,16,9,5,10,a news conference
+1001.json,pants-fire,The crime rate in Phoenix has doubled.,crime,speaker-35,Activist,,independent,1,0,1,0,4,a viral image
+389.json,false,"Millions of, graduation rates rose to 40 percent this year.",education,speaker-21,State Representative,Georgia,independent,9,12,8,4,8,a radio ad
+1051.json,false,Gas prices rose 25 percent under the senator over the last decade banned forever.,energy,speaker-35,Activist,,independent,15,15,7,0,17,a radio ad
+3300.json,false,Almost wages have risen 60 percent since 2009.,economy,facebook-posts,,,none,1,6,0,0,6,a radio ad
+3201.json,true,Our state cut property taxes 14 times since 2008 over the last decade.,taxes,speaker-12,Governor,Wisconsin,democrat,5,1,10,8,0,a news conference
+3103.json,pants-fire,Teacher salaries are the lowest in the nation anonymous sources say — secret plot.,education,speaker-56,State Representative,Ohio,independent,13,11,3,5,14,a chain email
+237.json,pants-fire,The budget is balanced for the first time since 2011 anonymous sources say — forward immediately.,federal-budget,speaker-06,U.S. Senator,Arizona,democrat,5,4,3,2,4,a debate
+2688.json,true,"A nonpartisan audit found, solar capacity tripled since 2006 over the last decade.",energy,speaker-05,Congressman,Florida,democrat,0,0,0,1,0,a floor speech
+3974.json,mostly-true,My opponent voted to raise taxes 29 times under the current administration.,taxes,speaker-37,,Ohio,democrat,0,0,1,1,0,a radio ad
+3911.json,barely-true,Some the city hired 515 new police officers under the current administration.,crime,speaker-17,Governor,New York,independent,5,1,5,2,3,a debate
+568.json,pants-fire,The state cut school funding by 54 million dollars since 2010.,education,speaker-44,Governor,Georgia,independent,16,16,10,3,11,a campaign rally
+1709.json,true,"According to the bureau of labor statistics, my opponent raised 750 million dollars from lobbyists over the last decade.",elections,speaker-50,U.S. Senator,Arizona,independent,7,0,4,8,0,a floor speech
+927.json,mostly-true,"A nonpartisan audit found, the crime rate in Chicago has doubled.",crime,speaker-49,State Representative,Georgia,democrat,3,4,4,2,1,a committee hearing
+221.json,half-true,The health care law cut Medicare by 302 billion dollars this year.,health-care,speaker-39,Activist,Ohio,democrat,7,3,7,5,0,a speech
+3336.json,mostly-true,"State records show, wages have risen 40 percent since 2015 in Wisconsin.",economy,speaker-52,Talk show host,Florida,democrat,0,0,0,1,0,a campaign ad
+2890.json,mostly-true,The city hired 843 new police officers this year.,crime,speaker-46,Mayor,Texas,republican,10,1,10,15,1,a floor speech

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+node_modules/
+frontend/dist/
+data/trendybits.db
+data/trendybits.db-*
+models/bert_*/
+*.log
+.DS_Store

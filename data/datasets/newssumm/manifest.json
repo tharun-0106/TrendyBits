@@ -1,0 +1,33 @@
+{
+  "dataset": "newssumm",
+  "origin": "synthetic-benchmark (schema-faithful, template generated)",
+  "schema": [
+    "Source",
+    "Content",
+    "Summary"
+  ],
+  "ieee_dataport": "https://ieee-dataport.org/documents/trendybits-news-summarization-dataset",
+  "split_ratios": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "seed": 42,
+  "stratified_on": null,
+  "sizes": {
+    "train": 560,
+    "valid": 70,
+    "test": 70
+  },
+  "test_sha256": "ff04c0dba246131d4885623974888b4bffb1cfee8fae0325e81b9937aa4c8dd9",
+  "test_isolated": true,
+  "audit": {
+    "dataset": "newssumm",
+    "rows_in": 708,
+    "removed_missing": 1,
+    "removed_bad_label": 0,
+    "removed_non_english": 1,
+    "removed_duplicates": 6,
+    "rows_out": 700
+  }
+}

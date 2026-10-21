@@ -1,0 +1,78 @@
+{
+  "dataset": "liar",
+  "origin": "synthetic-benchmark (schema-faithful, template generated)",
+  "schema": [
+    "id",
+    "label",
+    "statement",
+    "subject",
+    "speaker",
+    "job_title",
+    "state",
+    "party",
+    "barely_true_counts",
+    "false_counts",
+    "half_true_counts",
+    "mostly_true_counts",
+    "pants_on_fire_counts",
+    "context"
+  ],
+  "ieee_dataport": "https://ieee-dataport.org/documents/trendybits-fake-news-dataset",
+  "split_ratios": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "seed": 42,
+  "stratified_on": "label",
+  "sizes": {
+    "train": 2941,
+    "valid": 368,
+    "test": 368
+  },
+  "test_sha256": "b645fbcf1b129f1be37a06a47a5b4e3ee7b464f51a611fab3ec5fafabf424337",
+  "test_isolated": true,
+  "audit": {
+    "dataset": "liar",
+    "rows_in": 4003,
+    "removed_missing": 1,
+    "removed_bad_label": 0,
+    "removed_non_english": 0,
+    "removed_duplicates": 325,
+    "rows_out": 3677,
+    "label_distribution": {
+      "barely-true": 746,
+      "false": 582,
+      "half-true": 726,
+      "mostly-true": 626,
+      "pants-fire": 503,
+      "true": 494
+    }
+  },
+  "label_distribution": {
+    "train": {
+      "barely-true": 597,
+      "false": 465,
+      "half-true": 581,
+      "mostly-true": 501,
+      "pants-fire": 402,
+      "true": 395
+    },
+    "valid": {
+      "barely-true": 74,
+      "false": 59,
+      "half-true": 73,
+      "mostly-true": 62,
+      "pants-fire": 51,
+      "true": 49
+    },
+    "test": {
+      "barely-true": 75,
+      "false": 58,
+      "half-true": 72,
+      "mostly-true": 63,
+      "pants-fire": 50,
+      "true": 50
+    }
+  }
+}

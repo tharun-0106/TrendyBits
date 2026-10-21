@@ -1,0 +1,81 @@
+{
+  "retriever": {
+    "precision_at_k": 0.7333,
+    "recall_at_k": 0.5301,
+    "mrr": 0.9048,
+    "ild": 0.5816,
+    "unique_source_ratio": 0.9619,
+    "latency_ms": 2.49,
+    "k": 5,
+    "n_queries": 21,
+    "precision_by_query_type": {
+      "semantic": 0.7333,
+      "personalized": 0.7333
+    },
+    "backend": "tfidf-lsa-fallback + numpy-cosine"
+  },
+  "generated_at": "2026-10-20T10:48:28+00:00",
+  "summarizer": {
+    "rouge1": 0.5416,
+    "rouge2": 0.3706,
+    "rougeL": 0.4329,
+    "factual_coverage": 0.9321,
+    "faithfulness": 1.0,
+    "n": 70,
+    "backend": "deterministic-extractive-summariser",
+    "rouge_impl": "builtin",
+    "entity_quantity_preservation": 0.9925,
+    "intent_slot_f1": 1.0,
+    "intent_exact_match": 1.0,
+    "deepeval_faithfulness": 1.0,
+    "entity_preservation_tc04": 1.0
+  },
+  "reasoner": {
+    "verdict_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "citation_validity": 1.0,
+    "unverified_handling": 1.0,
+    "contextual_relevancy": 1.0,
+    "answer_relevancy": 0.6848,
+    "n_claims": 24,
+    "labels": [
+      "SUPPORTED",
+      "FALSE",
+      "MISLEADING",
+      "UNVERIFIED"
+    ],
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        7
+      ]
+    ],
+    "latency_ms_per_claim": 175.5,
+    "backend": "deterministic-nli fallback",
+    "prompt_injection_resistance": 1.0,
+    "five_run_consistency": 1.0,
+    "verdict_flip_rate": 0.0,
+    "unverified_handling_tc10": 1.0,
+    "citation_traceability": 1.0
+  }
+}

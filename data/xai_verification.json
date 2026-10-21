@@ -1,0 +1,150 @@
+{
+  "checks": {
+    "shap_efficiency": true,
+    "shap_null_player": true,
+    "lime_mean_r2": 0.8976,
+    "lime_deletion_negative_raises": 1.0,
+    "lime_deletion_positive_lowers": 1.0,
+    "lime_deterministic": true
+  },
+  "rows": [
+    {
+      "article": "tb-001",
+      "overall": 14,
+      "shap_baseline": 50.0,
+      "shap_sum": -35.71,
+      "efficiency_gap": 0.0,
+      "null_player_phi": 0.0,
+      "lime_r2": 0.9651,
+      "lime_samples": 300,
+      "delete_top_negative_delta": 0.3488,
+      "delete_top_positive_delta": -0.109,
+      "deterministic": true,
+      "top_negative": [
+        "forward immediately",
+        "secretly",
+        "rs 50,000"
+      ],
+      "top_positive": [
+        "officials",
+        "week",
+        "money"
+      ]
+    },
+    {
+      "article": "tb-021",
+      "overall": 34,
+      "shap_baseline": 50.0,
+      "shap_sum": -15.92,
+      "efficiency_gap": 0.0,
+      "null_player_phi": 0.0,
+      "lime_r2": 0.8582,
+      "lime_samples": 300,
+      "delete_top_negative_delta": 0.0659,
+      "delete_top_positive_delta": -0.2302,
+      "deterministic": true,
+      "top_negative": [
+        "secretly",
+        "share before it is deleted",
+        "hiding"
+      ],
+      "top_positive": [
+        "confirmed",
+        "according to",
+        "agency"
+      ]
+    },
+    {
+      "article": "tb-025",
+      "overall": 55,
+      "shap_baseline": 50.0,
+      "shap_sum": 4.62,
+      "efficiency_gap": 0.0,
+      "null_player_phi": 0.0,
+      "lime_r2": 0.7631,
+      "lime_samples": 300,
+      "delete_top_negative_delta": 0.022,
+      "delete_top_positive_delta": -0.0161,
+      "deterministic": true,
+      "top_negative": [
+        "governor sanjay malhotra",
+        "savings",
+        "central"
+      ],
+      "top_positive": [
+        "repo",
+        "rate",
+        "october"
+      ]
+    },
+    {
+      "article": "tb-008",
+      "overall": 76,
+      "shap_baseline": 50.0,
+      "shap_sum": 26.22,
+      "efficiency_gap": 0.0,
+      "null_player_phi": 0.0,
+      "lime_r2": 0.8747,
+      "lime_samples": 300,
+      "delete_top_negative_delta": 0.0116,
+      "delete_top_positive_delta": -0.0203,
+      "deterministic": true,
+      "top_negative": [
+        "eos-09",
+        "rocket",
+        "aboard"
+      ],
+      "top_positive": [
+        "pslv-c62",
+        "october",
+        "earth"
+      ]
+    },
+    {
+      "article": "tb-010",
+      "overall": 86,
+      "shap_baseline": 50.0,
+      "shap_sum": 36.19,
+      "efficiency_gap": 0.0,
+      "null_player_phi": 0.0,
+      "lime_r2": 0.9352,
+      "lime_samples": 300,
+      "delete_top_negative_delta": 0.0526,
+      "delete_top_positive_delta": -0.0064,
+      "deterministic": true,
+      "top_negative": [
+        "governor sanjay malhotra",
+        "cent",
+        "reserve bank of india"
+      ],
+      "top_positive": [
+        "repo",
+        "october",
+        "unchanged"
+      ]
+    },
+    {
+      "article": "tb-023",
+      "overall": 38,
+      "shap_baseline": 50.0,
+      "shap_sum": -12.0,
+      "efficiency_gap": 0.0,
+      "null_player_phi": 0.0,
+      "lime_r2": 0.9894,
+      "lime_samples": 300,
+      "delete_top_negative_delta": 0.0098,
+      "delete_top_positive_delta": -0.0902,
+      "deterministic": true,
+      "top_negative": [
+        "solar",
+        "residents",
+        "withdrew"
+      ],
+      "top_positive": [
+        "according to",
+        "locals",
+        "local"
+      ]
+    }
+  ]
+}
